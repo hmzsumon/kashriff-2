@@ -51,7 +51,7 @@
 			animation: slide-both-side 4s infinite both;
 
 			.theme-light & {
-				background: rgba($px-theme, 0.5);
+				background: rgba($px-theme, 1);
 			}
 			@include down-md {
 				top: -4px;
@@ -619,7 +619,7 @@
 	.rb-left {
 		min-height: 100%;
 		@include up-sm {
-			border-right: 1px solid rgba($px-white, 0.05);
+			// border-right: 1px solid rgba($px-white, 0.05);
 			.theme-light & {
 				border-right: 1px solid rgba($px-dark, 0.05);
 			}
@@ -658,7 +658,7 @@
 		}
 		.br_line {
 			width: 15px;
-			height: 70px;
+			height: 115px;
 			background-color: #d9832e;
 			border-radius: 50%;
 		}

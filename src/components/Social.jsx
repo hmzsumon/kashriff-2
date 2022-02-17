@@ -10,12 +10,12 @@ import {
 } from 'react-icons/fa';
 
 const SocialShare = [
-	{ Social: <FaFacebookF />, link: 'https://www.facebook.com/' },
-	{ Social: <FaTwitter />, link: 'https://www.linkedin.com/' },
-	{ Social: <FaInstagram />, link: 'https://www.instagram.com/' },
-	{ Social: <FaLinkedinIn />, link: 'https://twitter.com/' },
-	{ Social: <FaYoutube />, link: 'https://www.pinterest.com/' },
-	{ Social: <FaBehance />, link: 'https://www.pinterest.com/' },
+	{ Social: <FaFacebookF />, link: 'https://www.facebook.com/kashriffk1993' },
+	{ Social: <FaTwitter />, link: 'https://www.linkedin.com/kashriffk1993' },
+	{ Social: <FaInstagram />, link: 'https://www.instagram.com/kashriffk1993' },
+	{ Social: <FaLinkedinIn />, link: 'https://twitter.com/kashriffk1993' },
+	{ Social: <FaYoutube />, link: 'https://www.pinterest.com/kashriffk1993' },
+	{ Social: <FaBehance />, link: 'https://www.pinterest.com/kashriffk1993' },
 ];
 
 const Social = () => {
