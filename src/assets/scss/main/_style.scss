@@ -380,19 +380,40 @@
 				line-height: inherit;
 			}
 			&:nth-child(1) {
-				top: -37px;
+				top: -63px;
+				left: -21px;
 			}
 			&:nth-child(2) {
-				top: -8px;
+				top: -21px;
+				left: -36px;
+			}
+			&:nth-child(3) {
+				top: 10px;
+				left: -43px;
 			}
 			&:nth-child(4) {
-				top: 0px;
+				top: 28px;
+				left: -40px;
 			}
 			&:nth-child(5) {
-				top: -11px;
+				top: 32px;
+				left: -36px;
 			}
 			&:nth-child(6) {
-				top: -36px;
+				top: 21px;
+				left: -29px;
+			}
+			&:nth-child(7) {
+				top: -2px;
+				left: -29px;
+			}
+			&:nth-child(8) {
+				top: -75px;
+				left: 159px;
+			}
+			&:nth-child(9) {
+				top: -113px;
+				left: 142px;
 			}
 			&:hover {
 				@include scale(1.1);
@@ -528,6 +549,10 @@
 	// }
 	.icon {
 		width: 70px;
+		width: 78px;
+		background-color: #fff;
+		padding: 5px;
+		border-radius: 5px;
 	}
 	.media-body {
 		padding-left: 10px;
@@ -661,6 +686,23 @@
 			height: 115px;
 			background-color: #d9832e;
 			border-radius: 50%;
+		}
+	}
+}
+
+/* Why Kashriff */
+.why-box {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 20px;
+
+	.item {
+		background-color: #0b0b13;
+		padding: 10px 20px;
+		border-radius: 4px;
+
+		h2 {
+			text-align: center;
 		}
 	}
 }

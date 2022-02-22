@@ -34,11 +34,11 @@ const Interest = () => {
 						data-aos-duration='1200'
 						data-aos-delay={val.delayAnimation}
 					>
-						<div className='feature-box-02 d-flex align-items-center bg-white'>
+						<div className='feature-box-02 d-flex align-items-center bg-white justify-content-center'>
 							<img
 								src={`img/interest/${val.img}.png`}
 								alt='award'
-								style={{ width: '100%', height: '100%' }}
+								style={{ width: '40%' }}
 							/>
 						</div>
 					</div>

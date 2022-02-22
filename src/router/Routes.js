@@ -19,14 +19,9 @@ const Routes = () => {
 			<Router>
 				<ScrollTopBehaviour />
 				<Switch>
-					{/* <Route exact path='/' component={Preview} /> */}
-					{/* <Route path='/home-light' component={HomeLight} /> */}
-					{/* <Route path='/' component={HomeLight} /> */}
-					<Route path='/' component={HomeDarkAnimation} />
-					<Route
-						path='/home-light-rtl-animation'
-						component={HomeLightRtlAnimation}
-					/>
+					<Route exact path='/' component={Preview} />
+					<Route path='/home-light' component={HomeLight} />
+					<Route path='/home-light-animation' component={HomeLightAnimation} />
 					<Route
 						path='/home-light-sidebar-two'
 						component={HomeLightSidebarTwo}
